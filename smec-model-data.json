@@ -1,0 +1,135 @@
+{
+  "partners": [
+    "Tata Elxsi",
+    "UST",
+    "Infosys",
+    "Quest Global",
+    "Cognizant",
+    "Wipro",
+    "EY GDS",
+    "Experion"
+  ],
+  "placements": [
+    {
+      "name": "Anjali Nair",
+      "initials": "AN",
+      "role": "Data Analyst",
+      "company": "UST",
+      "course": "Data Science"
+    },
+    {
+      "name": "Rahul Menon",
+      "initials": "RM",
+      "role": "QA Engineer",
+      "company": "Infosys",
+      "course": "Software Testing"
+    },
+    {
+      "name": "Sneha Pillai",
+      "initials": "SP",
+      "role": "Python Developer",
+      "company": "Experion",
+      "course": "Python Full Stack"
+    },
+    {
+      "name": "Arjun Francis",
+      "initials": "AF",
+      "role": "MERN Developer",
+      "company": "Wipro",
+      "course": "MERN Stack"
+    },
+    {
+      "name": "Devika K",
+      "initials": "DK",
+      "role": "Flutter Developer",
+      "company": "EY GDS",
+      "course": "Flutter Development"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Professional Certification in Data Science",
+      "level": "Beginner to Advanced",
+      "duration": "16 Weeks",
+      "projects": 6,
+      "image": "assets/course-data-science.svg"
+    },
+    {
+      "title": "Software Testing with Gen AI",
+      "level": "Beginner to Advanced",
+      "duration": "12 Weeks",
+      "projects": 4,
+      "image": "assets/course-testing.svg"
+    },
+    {
+      "title": "Python Full Stack with Gen AI",
+      "level": "Beginner to Advanced",
+      "duration": "20 Weeks",
+      "projects": 7,
+      "image": "assets/course-python.svg"
+    },
+    {
+      "title": "ME(A)RN Stack with Gen AI",
+      "level": "Advanced",
+      "duration": "18 Weeks",
+      "projects": 6,
+      "image": "assets/course-mern.svg"
+    },
+    {
+      "title": "Flutter Development",
+      "level": "Beginner to Advanced",
+      "duration": "14 Weeks",
+      "projects": 5,
+      "image": "assets/course-flutter.svg"
+    }
+  ],
+  "featuredBlogs": [
+    {
+      "id": "blog-001",
+      "category": "Career Guide",
+      "title": "How to Choose the Right IT Course After Graduation",
+      "date": "2026-06-08",
+      "readTime": "6 min read",
+      "status": "draft-ready"
+    },
+    {
+      "id": "blog-002",
+      "category": "Placement Tips",
+      "title": "What Recruiters Expect From Freshers in 2026",
+      "date": "2026-06-12",
+      "readTime": "5 min read",
+      "status": "draft-ready"
+    },
+    {
+      "id": "blog-003",
+      "category": "Portfolio",
+      "title": "Portfolio Projects That Help Students Get Shortlisted",
+      "date": "2026-06-18",
+      "readTime": "7 min read",
+      "status": "draft-ready"
+    }
+  ],
+  "articles": [
+    {
+      "category": "Career Tips",
+      "title": "Why Full Stack is the Most In-Demand Skill in 2026?",
+      "date": "2026-05-20",
+      "readTime": "5 min read",
+      "image": "assets/news-fullstack.svg"
+    },
+    {
+      "category": "Guides",
+      "title": "9 Mistakes Students Make in MERN Stack Courses",
+      "date": "2026-05-18",
+      "readTime": "4 min read",
+      "image": "assets/news-mern.svg"
+    },
+    {
+      "category": "Guides",
+      "title": "UI/UX Design Certification: Is it Worth it?",
+      "date": "2026-05-16",
+      "readTime": "4 min read",
+      "image": "assets/news-uiux.svg"
+    }
+  ]
+}
