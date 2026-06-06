@@ -396,12 +396,14 @@
       display: flex;
       flex-direction: column;
       overflow: hidden;
+      min-width: 0;
     }
 
     .course-body {
       display: flex;
       flex: 1;
       flex-direction: column;
+      min-width: 0;
     }
 
     .course-title {
@@ -423,7 +425,8 @@
 
     .course-meta span {
       min-width: 0;
-      white-space: nowrap;
+      white-space: normal;
+      overflow-wrap: anywhere;
     }
 
     .course-action {
@@ -534,6 +537,18 @@
     .footer h6 {
       color: #111827;
       font-weight: 800;
+    }
+
+    .footer .list-unstyled li {
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      white-space: normal;
+    }
+
+    .footer .list-unstyled li span {
+      display: inline-block;
+      max-width: 100%;
+      white-space: normal;
     }
 
     .social-link {
@@ -719,6 +734,8 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
     <section class="section-band soft" id="courses">
       <div class="container">
@@ -818,7 +835,6 @@
           </div>
         </div>
       </div>
-    </section>
 
     <section class="section-band" id="placements">
       <div class="container">
@@ -1054,9 +1070,7 @@
         <div class="col-6 col-lg-3">
           <h6>Locations</h6>
           <ul class="list-unstyled lh-lg">
-            <li><i class="bi bi-geo-alt me-2"></i><strong>Kochi</strong><br><span class="text-secondary ms-4">+91 97018 187 215</span></li>
-            <li><i class="bi bi-geo-alt me-2"></i><strong>Calicut</strong><br><span class="text-secondary ms-4">+91 97018 187 215</span></li>
-            <li><i class="bi bi-geo-alt me-2"></i><strong>Trivandrum</strong><br><span class="text-secondary ms-4">+91 97018 187 215</span></li>
+            <li><i class="bi bi-geo-alt me-2"></i><strong>Calicut</strong><br><span class="text-secondary ms-4">2nd Floor, Al Noor Complex,<br>Arayidathupalam, Kozhikode,<br>Kerala 673004<br>+91 97781 91215</span></li>
           </ul>
         </div>
       </div>
